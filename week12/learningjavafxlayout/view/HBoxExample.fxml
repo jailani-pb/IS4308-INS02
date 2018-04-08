@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1">
+	<Button text="A" prefWidth="100" prefHeight="100"/>
+	<Button text="B" prefWidth="100" prefHeight="100"/>
+	<Button text="C" prefWidth="100" prefHeight="100"/>
+	<Button text="D" prefWidth="100" prefHeight="100"/>
+	<Button text="E" prefWidth="100" prefHeight="100"/>
+</HBox>
+

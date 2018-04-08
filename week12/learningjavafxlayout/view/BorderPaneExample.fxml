@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+	<top>
+		<Button text="C" prefWidth="100" prefHeight="100"/>
+	</top>
+	
+	<left>
+		<Button text="D" prefWidth="100" prefHeight="100"/>
+	</left>
+	
+	<center>
+		<Button text="A" prefWidth="100" prefHeight="100"/>
+	</center>
+	
+	<right>
+		<Button text="E" prefWidth="100" prefHeight="100"/>
+	</right>
+	
+	<bottom>
+		<Button text="B" prefWidth="100" prefHeight="100"/>
+	</bottom>
+</BorderPane>
+
+
+
