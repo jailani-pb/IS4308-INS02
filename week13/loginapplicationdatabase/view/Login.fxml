@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER"
+fx:controller="week13.loginapplicationdatabase.controller.LoginController">
+	<HBox alignment="CENTER">
+		<Label text="Username" />
+		<TextField fx:id="textfieldUsername" />
+	</HBox>
+	<HBox alignment="CENTER">
+		<Label text="Password" />
+		<TextField fx:id="textfieldPassword" />
+	</HBox>
+	<HBox alignment="CENTER">
+		<VBox alignment="CENTER">
+			<Button text="Login" onAction="#login" />
+			<Label fx:id="labelWarning" />
+		</VBox>
+	</HBox>
+</VBox>
+
