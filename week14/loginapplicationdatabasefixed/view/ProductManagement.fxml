@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="week14.loginapplicationdatabasefixed.controller.ProductController">
+	<ListView fx:id="listViewProduct"/>
+	<VBox>
+		<HBox>
+			<Label />
+			<Button />
+		</HBox>
+		<HBox>
+			<Label text="ID" />
+			<TextField />
+		</HBox>
+		<HBox>
+			<Label text="Name" />
+			<TextField />
+		</HBox>
+		<HBox>
+			<Label text="Price" />
+			<TextField />
+		</HBox>
+		<HBox>
+			<Label text="In Stock?" />
+			<CheckBox />
+		</HBox>
+	</VBox>
+</HBox>
+
