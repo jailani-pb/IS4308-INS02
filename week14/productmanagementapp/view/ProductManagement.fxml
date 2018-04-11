@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="week14.productmanagementapp.controller.ProductController">
+	<ListView fx:id="listViewProduct" onMouseClicked="#retrieve"/>
+	<VBox>
+		<HBox>
+			<Label fx:id="labelUsername"/>
+			<Button text="Logout" onAction="#logout"/>
+		</HBox>
+		<HBox>
+			<Label text="ID" />
+			<TextField fx:id="textFieldId" editable="false"/>
+		</HBox>
+		<HBox>
+			<Label text="Name" />
+			<TextField fx:id="textFieldName"/>
+		</HBox>
+		<HBox>
+			<Label text="Price" />
+			<TextField fx:id="textFieldPrice"/>
+		</HBox>
+		<HBox>
+			<Label text="In Stock?" />
+			<CheckBox fx:id="checkBoxInStock"/>
+		</HBox>
+		<Button text="Edit" onAction="#edit"/>
+	</VBox>
+</HBox>
+
